@@ -1,0 +1,336 @@
+.primary-button{
+    background-color: #e29578 ;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+}
+.body{
+    background-color: #edf6f9;
+}
+}
+.body{
+   margin-left: 60px;
+   margin-right: 60px;
+}
+.body-text{
+    font-family: "helvetica";
+    font-size: 20px;
+    line-height: 40px;
+    
+}
+
+/* Top Nav + Heading */
+.topnav{
+    background-color: white;
+    /* background-color: #ffddd2; */
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 2px 3px 8px grey;
+
+}
+.topnav a{
+    float: auto;
+    color: black;
+    text-align: center;
+    padding: 30px, 30px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "baskerville, serif";
+    font-weight: bold; 
+}
+#logo{
+    display: flex;
+    
+}
+.topnav a:hover{
+    color: #e29578;
+}
+
+.hero-heading{
+    color: black;
+    font-size: 160px;
+    font-family: "helvetica, san-serif";
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content:space-around;
+    padding-top: 250px;
+    padding-bottom: 10px;
+    text-shadow: 3px 3px 5px;
+}
+.name{
+    text-align: center;
+    font-family: "quasimoda sans-serif";
+    font-size: 20px;
+    letter-spacing: 3px;
+    padding-bottom: 40px;
+}
+/* Introduction */
+.introduction{
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 800px;
+    background-color: white;
+    box-shadow: 1px 1px 4px grey;
+}
+.intro-heading{
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    font-size: 80px;
+    color:#53A1BC;
+    font-family: "baskerville, serif";
+    padding-top: 100px;
+    text-shadow: 1px 1px 4px grey;
+}
+
+.subheading-intro{
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-style: italic;
+    font-family: "quasimoda sans-serif";
+    /* text-shadow: 0px 1px 2px grey; */
+}
+
+.intro-body{
+    font-family: "quasimoda, serif";
+    font-size: 20px;
+    line-height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    width: 600px;
+    /* heights: 500px; */
+    padding-right: 60px;
+    padding-left: 50px;
+    padding-top: 60px;
+    float: left;  
+}
+.intro-body2{
+    font-family: "quasimoda, serif";
+    font-size: 20px;
+    line-height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    width: 600px;
+    /* heights: 500px; */
+    padding-right: 60px;
+    float: left;  
+    padding-top: 50px;
+}
+
+}
+/* .project-tile{
+   box-shadow: 2px, 2px, 5px;
+   padding-top: 50px;
+   margin-left: 100px;
+   margin-right: 100px;
+}  */
+
+.tenant-img{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    width: 100px;
+    height: 50px;
+    padding-right: 30px;
+    /* padding: 100px; */
+}
+
+/* Gathering Information */
+.gathering-information{
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 800px;
+    background-color: white;
+    box-shadow: 1px 1px 4px grey;
+}
+.g-i-heading{
+    text-align: center;
+    font-size: 80px;
+    color:black;
+    font-family: "quasimoda, serif";
+    padding-top: 60px;
+    text-shadow: 0px 1px 2px;
+}
+
+.g-i-body{
+    font-family: "quasimoda, serif";
+    font-size: 20px;
+    line-height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    width: 600px;
+    padding-left: 50px;
+    padding-top: 50px;
+    /* heights: 500px; */
+    padding-right: 60px;
+    float: left; 
+}
+#gi-image{
+
+}
+#gi2-image{
+
+}
+
+/* .project-tile{
+   box-shadow: 2px, 2px, 5px;
+   padding-top: 50px;
+   margin-left: 100px;
+   margin-right: 100px;
+}  */
+
+#tenant-img{
+    display: flex;
+    justify-content: flex-start;
+    width: 500px;
+    padding-right: 30px;
+}
+/* Ideation and Prototype */
+.ip{
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 800px;
+    background-color: white;
+    box-shadow: 1px 1px 4px grey;
+}
+.ip-heading{
+    text-align: center;
+    font-size: 80px;
+    color:black;
+    font-family: "baskerville, serif";
+    padding-top: 60px;
+    text-shadow: 0px 1px 2px; 
+}
+.ip-body{
+    font-family: "quasimoda, serif";
+    font-size: 20px;
+    line-height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    width: 600px;
+    padding-left: 50px;
+    padding-top: 50px;
+    /* heights: 500px; */
+    padding-right: 60px;
+    float: left; 
+}
+#ip-image{
+
+}
+
+/* Final */
+.final{
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 800px;
+    background-color: white;
+    box-shadow: 1px 1px 4px grey;
+}
+.final-heading{
+    text-align: center;
+    font-size: 80px;
+    color:black;
+    font-family: "quasimoda, serif";
+    padding-top: 60px;
+    text-shadow: 0px 1px 2px;
+}
+.final-body{
+    font-family: "quasimoda, serif";
+    font-size: 20px;
+    line-height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    width: 600px;
+    padding-left: 50px;
+    padding-top: 50px;
+    /* heights: 500px; */
+    padding-right: 60px;
+    float: left; 
+}
+#final-image{
+
+}
+
+/* Contact Me */
+#contact{
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 1px 1px 4px grey;
+}
+.contact-list{
+    padding-bottom: 100px;
+}
+.subheading-contact{
+    text-align: center;
+    font-size: 80px;
+    color:black;
+    font-family: "quasimoda, serif";
+    padding-top: 60px;
+    text-shadow: 0px 1px 2px;
+}
+.contact-info a{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    grid-template-columns: 100%;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-family: "baskerville, serif";
+}
+
+/* Footer */
+.footer{
+    background-color: #edf6f9;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer a{
+    float: auto;
+    color: black;
+    text-align: center;
+    padding: 30px, 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "baskerville, serif";
+    font-weight: bold;
+    display: inline-block;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    
+   
+}
+.footer a:hover{
+    color: #e29578
+}
+
+/* @media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+   */
